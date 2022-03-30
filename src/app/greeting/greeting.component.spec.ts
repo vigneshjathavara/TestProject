@@ -27,7 +27,7 @@ describe('GreetingComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('output text',()=>{
+  it('should output correct text',()=>{
 
     
     const _elementRef=fixture.debugElement;
